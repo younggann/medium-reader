@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Medium Reader",
+    "version": "1.0",
+
+    "description": "learn and connect", 
+
+    "browser_action": {
+        "default_icon": "/images/icon.png",
+        "default_popup": "/views/popup.html"
+    },
+    // "page_action": 
+
+    "author": "Young Cho An (@younggann)",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
